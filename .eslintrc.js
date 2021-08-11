@@ -9,6 +9,9 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended"
   ],
+  "globals": {
+    "cy": true
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
